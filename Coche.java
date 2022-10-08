@@ -4,8 +4,9 @@ public class Coche {
     private String nameCoche;
     private float precioCoche;
     private int puertasCoche;
-
     private int marchasCoche;
+
+    private int asientos;
 
     //Constructores
 
