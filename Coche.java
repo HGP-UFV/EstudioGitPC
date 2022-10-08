@@ -5,6 +5,7 @@ public class Coche {
     private float precioCoche;
     private int puertasCoche;
 
+    private int marchasCoche;
 
     //Constructores
 
@@ -15,11 +16,12 @@ public class Coche {
     }
 
         //Parametrizado
-    public Coche(String nameCocheConstructor, float precioCocheConstructor, int puertasCocheConstructor)
+    public Coche(String nameCocheConstructor, float precioCocheConstructor, int puertasCocheConstructor, int marchasCocheConstructor)
     {
         nameCoche = nameCocheConstructor;
         precioCoche = precioCocheConstructor;
         puertasCoche = puertasCocheConstructor;
+        marchasCoche = marchasCocheConstructor;
     }
 
 
@@ -64,6 +66,19 @@ public class Coche {
         puertasCoche = puertasCocheSetter;
     }
     //Getter Setter puertasCoche
+
+
+
+    //Getter Setter marchasCoche
+    public int GetMarchasCoche()
+    {
+        return marchasCocheCoche;
+    }
+    public void SetMarchasCoche(int marchasCocheSetter)
+    {
+        marchasCoche = marchasCocheSetter;
+    }
+    //Getter Setter marchasCoche
 
 
 

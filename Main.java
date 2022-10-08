@@ -20,8 +20,10 @@ public class Main {
         System.out.println("¿Cuantas puertas tiene su coche?");
         CocheA.SetPuertasCoche(LecturaTeclado.nextInt());
 
+        System.out.println("¿Cuantas marchas tiene su coche?");
+        CocheA.SetMarchasCoche(LecturaTeclado.nextInt());
 
-        System.out.println("Coche Registrado con las siguientes características: \n  Nombre " + CocheA.GetNameCoche() + "\n  Precio " + CocheA.GetPrecioCoche() + "\n  Numero de Puertas " +  CocheA.GetPuertasCoche());
+        System.out.println("Coche Registrado con las siguientes características: \n  Nombre " + CocheA.GetNameCoche() + "\n  Precio " + CocheA.GetPrecioCoche() + "\n  Numero de Puertas " +  CocheA.GetPuertasCoche() + "\n  Numero de Marchas " +  CocheA.GetMarchasCoche());
 
 
 
