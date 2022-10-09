@@ -22,6 +22,9 @@ public class Main {
 
         System.out.println("¿Cuantas marchas tiene su coche?");
         CocheA.SetMarchasCoche(LecturaTeclado.nextInt());
+        
+        //Creamos Menu
+        //Finalizamos Menu
 
         System.out.println("Coche Registrado con las siguientes características: \n  Nombre " + CocheA.GetNameCoche() + "\n  Precio " + CocheA.GetPrecioCoche() + "\n  Numero de Puertas " +  CocheA.GetPuertasCoche() + "\n  Numero de Marchas " +  CocheA.GetMarchasCoche());
 
