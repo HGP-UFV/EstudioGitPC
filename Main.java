@@ -6,6 +6,8 @@ public class Main {
         //Variables==========================================
         Scanner LecturaTeclado = new Scanner(System.in);
         Coche CocheA = new Coche();
+
+        int option;
         //===================================================
 
         //Desarrollo main
@@ -20,8 +22,23 @@ public class Main {
         System.out.println("¿Cuantas puertas tiene su coche?");
         CocheA.SetPuertasCoche(LecturaTeclado.nextInt());
 
+        System.out.println("¿Cuantas marchas tiene su coche?");
+        CocheA.SetMarchasCoche(LecturaTeclado.nextInt());
+        
+        //Creamos Menu
+        do {
+            System.out.println("Bienvenido/a a nuestro concesionario de reventa de coches.\nSeleccione una de las opciones de nuestro menu\n   [1] Registrar Coche Nuevo\n   [2] Ver Catalogo\n   [3] Exit\n\n   [OPCION 1-3]: ");
+            option = System.in();
+            if(option){
 
-        System.out.println("Coche Registrado con las siguientes características: \n  Nombre " + CocheA.GetNameCoche() + "\n  Precio " + CocheA.GetPrecioCoche() + "\n  Numero de Puertas " +  CocheA.GetPuertasCoche());
+            }
+            else{
+
+            }
+        }while (option!=3);
+        //Finalizamos Menu
+
+        System.out.println("Coche Registrado con las siguientes características: \n  Nombre " + CocheA.GetNameCoche() + "\n  Precio " + CocheA.GetPrecioCoche() + "\n  Numero de Puertas " +  CocheA.GetPuertasCoche() + "\n  Numero de Marchas " +  CocheA.GetMarchasCoche());
 
 
 
